@@ -1,0 +1,69 @@
+.navbar {
+    background: transparent!important;
+    background-color: rgba(17,17,17,0.75)!important;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%)!important;
+}
+.btn, .btn1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px; 
+    margin: 0px  20px;
+    font-family: "Adelle Cyrillic";
+}
+.btn:focus {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    text-decoration: overline;
+}
+.btn:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+
+}
+.btn1:hover  {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+.vv {
+    display: flex;
+    align-items: center!important;
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+    margin-top: 100px!important;
+}
+.v {
+    position: absolute!important; position: sticky!important;
+    box-shadow: none!important;
+    background: none!important;
+    display: block!important;
+}
+.x {
+    margin-left: -20px!important;
+    border: none!important;
+    position: relative!important;
+    list-style: none!important;
+    list-style-type: none!important;
+    outline:none!important; border: none !important;;
+}
+.vvv {
+    position: absolute;
+    left: 53%;
+    display: flex;
+    float: left;
+    text-align: center;
+}
+#ram {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px; 
+    font-family: "Adelle Cyrillic";
+    margin-left: 15px;
+}
+#ram:focus {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+#ram:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}

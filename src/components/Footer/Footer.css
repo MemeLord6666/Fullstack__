@@ -1,0 +1,36 @@
+.footer {
+    background-color: #000;
+}
+.footer_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer_block span {
+    color: rgba(140,140,140,1);
+    font-family: "Adelle Cyrillic", "Dctz38", Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer_block p {
+    color: white;
+    font-family: "Adelle Cyrillic", "Dctz38", Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+}
+
+.logo_foot {
+    width: 200px;
+    height: 150px;
+}
+.logo2_foot {
+    width: 300px!important;
+    height: 50px!important;
+}
+.l {    
+    color: white;
+    margin-left: 20px;
+}
+.l:hover {
+    color: gray;
+}

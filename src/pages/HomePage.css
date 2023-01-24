@@ -1,0 +1,224 @@
+#background-video {      
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.Game {
+    position: absolute;
+    top: 150%;
+    left: 25%;
+    font-family: Luminari, fantasy;
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+    color: #7c655a;
+}
+.hero_one img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.hero_two img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.info_hero {
+    position: absolute;
+    width: 400px;
+    top: 260%;
+    left: 10%;
+    color: black;   
+    display: flex;
+    flex-direction: column;
+    
+}
+.info_hero h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.info_hero img {
+    width: 400px;
+}
+
+.info_hero2 {
+    width: 400px;
+    color: black;   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 380%;
+    left: 60%;
+}
+.info_hero2 h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.info_hero2 img {
+    width: 400px;
+}
+
+.apple img{
+    width: 200px;
+    margin: 0px 50px;
+}
+.ramka {
+    width: 100%;
+    margin-top: 170px;
+
+}
+
+.play1{
+ height: 100px !important;
+ width: 100px !important;
+ cursor: pointer;
+}
+
+.play1:hover{
+    opacity: 0,5;
+    color: black;
+}
+
+.Home {
+    margin-top: 160px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media all and (max-width: 1024px){
+    .ramka {
+        margin-top: 30px;
+    }
+    .Game {
+        font-size: 20px;
+        width: 500px;
+        top: 160%;
+    }
+    .info_hero {
+        top: 290%;
+    }
+    .info_hero2 {
+        top: 430%;
+    }
+}
+@media all and (max-width: 768px){
+    .Game {
+        font-size: 17px;
+        width: 400px;
+        top: 150%;
+    }
+    .info_hero2 {
+       top: 340%;
+       left: 48%;
+    }
+    .info_hero {
+        left: 3%;
+        top: 230%;
+    }
+}
+@media all and (max-width: 426px){
+    .play1 {
+        height: 50px!important;
+        width: 50px!important;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    .apple img {
+        width: 80px;
+        height: 30px;
+    }
+    .Game {
+        top: 97%;
+        width: 200px;
+        font-size: 10px;
+    }
+    .info_hero img {
+        width: 160px;
+    }
+    .info_hero h2  {
+        width: 160px;
+        font-size: 10px;
+    }
+    .info_hero {
+        top: 150%;
+    }
+    .info_hero2 {
+       top: 200%;
+       left: 60%;
+       width: 100px;
+    }
+    .info_hero2 img {
+        width: 160px;
+    }
+    .info_hero2 h2 {
+        width: 160px;
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 376px){
+    .Home {
+        margin-top: 20%;
+    }
+    .Game {
+        top: 74%;
+        font-size: 9px;
+    }
+    .info_hero {
+        top: 120%;
+        width: 200px;
+    }
+    .info_hero2 {
+        width: 100px;
+        left: 54%;
+        top: 170%;
+    }
+}
+@media all and (max-width: 320px){
+    h1 {
+        font-size: 9px;
+    }
+    .play1 {
+        width: 30px!important;
+        height: 30px!important;
+    }
+    .apple img {
+        width: 40px;
+        height: 30px;
+    }
+    .Game {
+        width: 160px;
+        font-size: 8px;
+        top: 60%;
+    }
+    .info_hero {
+        top: 110%;
+        width: 200px;
+    }
+    .info_hero img {
+        width: 100px;
+    }
+    .info_hero h2 {
+        width: 120px;
+       font-size: 7px;
+    }
+    .info_hero2 {
+        width: 100px;
+        top: 140%;
+    }
+    .info_hero2 img {
+        width: 100px;
+    }
+    .info_hero2 h2 {
+        width: 120px;
+       font-size: 7px;
+    }
+}
